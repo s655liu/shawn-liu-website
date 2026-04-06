@@ -1,4 +1,4 @@
-import { createContext, useState, useContext, useEffect } from 'react';
+import { createContext, useState, useContext } from 'react';
 
 const translations = {
     en: {
@@ -64,7 +64,10 @@ const translations = {
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    const [lang, setLang] = useState(localStorage.getItem('lang') || 'en');
+    const [lang, setLang] = useState(() => {
+        const saved = localStorage.getItem('lang');
+        return (saved === 'en' || saved === 'cn') ? saved : 'en';
+    });
 
     const t = (key) => translations[lang][key] || key;
 

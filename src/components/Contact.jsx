@@ -36,7 +36,7 @@ export default function Contact() {
         className="max-w-4xl mx-auto"
       >
         <p className="text-xl md:text-2xl text-slate-400 mb-10 leading-relaxed font-light">
-          {t?.['footer-desc'] || "I'm always looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!"}
+          {t('footer-desc') || "I'm always looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!"}
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-16">
@@ -129,7 +129,7 @@ export default function Contact() {
           href="mailto:s314liu@gmail.com" 
           className="inline-block px-12 py-4 border-2 border-primary text-primary font-bold font-mono uppercase tracking-widest mb-20 hover:bg-primary hover:text-black transition-all shadow-[0_0_20px_rgba(100,255,218,0.15)]"
         >
-          {t?.['footer-btn'] || 'Get In Touch'}
+          {t('footer-btn') || 'Get In Touch'}
         </motion.a>
 
         <p className="text-slate-600 font-mono text-xs tracking-widest uppercase opacity-50">

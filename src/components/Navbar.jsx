@@ -88,7 +88,7 @@ export default function Navbar() {
               className="mt-20 flex flex-col items-center gap-6"
             >
                <a 
-                href="/Files/Shawn_Liu_Resume.pdf" 
+                href={lang === 'en' ? "/Files/Shawn_Liu_Resume.pdf" : "/Files/Shawn_Liu_Resume_CN.pdf"} 
                 target="_blank"
                 className="bg-primary px-10 py-4 text-black text-sm font-bold uppercase tracking-widest hover:bg-white transition-colors"
               >
