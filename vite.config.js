@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Shawn-Liu-Website/',
+  base: process.env.VERCEL ? '/' : '/Shawn-Liu-Website/',
   plugins: [react()],
   resolve: {
     alias: {
