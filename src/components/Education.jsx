@@ -25,7 +25,11 @@ export default function Education() {
         >
           {/* Logo Placeholder / University Name Area */}
           <div className="w-20 h-20 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center shrink-0">
-             <img src="/Images/uwaterloo-logo.jpg" alt="Waterloo" className="w-12 h-12 grayscale group-hover:grayscale-0 transition-all" />
+             <img 
+               src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`}Images/uwaterloo-logo.jpg`} 
+               alt="Waterloo" 
+               className="w-12 h-12 grayscale group-hover:grayscale-0 transition-all" 
+             />
           </div>
 
           <div>

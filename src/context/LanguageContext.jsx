@@ -28,7 +28,12 @@ const translations = {
         "role-intern": "Software Developer Intern",
         "role-se-intern": "Software Engineering Intern",
         "role-ds-intern": "Data Scientist Intern",
-        "role-graduate": "Bachelor's of Honours Computer Science"
+        "role-graduate": "Bachelor's of Honours Computer Science",
+        "term-about": "about/",
+        "term-proj": "projects/",
+        "term-exp": "experience/",
+        "term-edu": "education/",
+        "term-skills": "skills/"
     },
     cn: {
         "nav-home": "首页", "nav-about": "关于", "nav-projects": "项目", "nav-exp": "工作经历", "nav-skills": "个人技能", "nav-contact": "联系", "nav-resume": "简历", "nav-edu": "教育背景",
@@ -57,7 +62,12 @@ const translations = {
         "role-intern": "软件开发实习生",
         "role-se-intern": "软件工程实习生",
         "role-ds-intern": "数据科学家实习生",
-        "role-graduate": "计算机科学荣誉学士"
+        "role-graduate": "计算机科学荣誉学士",
+        "term-about": "关于我/",
+        "term-proj": "项目/",
+        "term-exp": "工作经历/",
+        "term-edu": "教育背景/",
+        "term-skills": "个人技能/"
     }
 };
 

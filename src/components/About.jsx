@@ -54,7 +54,7 @@ export default function About() {
 
           <div className="relative overflow-hidden aspect-[4/5] bg-white/5 border border-white/10 shadow-2xl">
             <img 
-              src="/Images/Me in Xi'an.png" 
+              src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`}Images/Me in Xi'an.png`} 
               alt="Me in Xi'an" 
               className="w-full h-full object-cover transition-all duration-700 filter brightness-90 contrast-125 sepia-[0.1] hue-rotate-[-10deg] group-hover:filter-none group-hover:scale-105"
             />

@@ -134,7 +134,7 @@ export default function Hero() {
         className="absolute left-0 bottom-0 top-0 w-3/4 hidden lg:block pointer-events-none -z-10"
       >
         <img 
-          src="/Images/Shanghai_1.png" 
+          src={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`}Images/Shanghai_1.png`} 
           alt="SHANGHAI" 
           className="w-full h-full object-cover" 
         />
