@@ -6,7 +6,7 @@ export default function Education() {
   const { t } = useLanguage();
 
   return (
-    <section id="education" className="py-20 px-10 md:px-20 max-w-5xl mx-auto">
+    <section id="education" className="py-20 px-10 md:px-20 max-w-7xl mx-auto">
       <motion.h2 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

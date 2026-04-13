@@ -40,7 +40,7 @@ const skills = [
 export default function Skills() {
   const { t } = useLanguage();
   return (
-    <section id="skills" className="py-20 px-10 md:px-20 max-w-6xl mx-auto">
+    <section id="skills" className="py-20 px-10 md:px-20 max-w-7xl mx-auto">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
