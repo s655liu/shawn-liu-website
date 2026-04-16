@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Skills from './components/Skills'
+import Wisdom from './components/Wisdom'
 import Contact from './components/Contact'
 import BackgroundCanvas from './components/BackgroundCanvas'
 import CustomCursor from './components/CustomCursor'
@@ -52,6 +53,7 @@ export default function App() {
             <Experience />
             <Education />
             <Skills />
+            <Wisdom />
           </TerminalContainer>
           
           <Contact />

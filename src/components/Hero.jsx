@@ -24,7 +24,7 @@ export default function Hero() {
   const [index, setIndex] = useState(0);
   
   const phrases = [
-    `I'm a ${t('hero-text-1')}`,
+    `${t('hero-im-a')} ${t('hero-text-1')}`,
     t('hero-text-2'),
     t('hero-text-3')
   ];

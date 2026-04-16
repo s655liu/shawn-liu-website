@@ -33,7 +33,10 @@ const translations = {
         "term-proj": "projects/",
         "term-exp": "experience/",
         "term-edu": "education/",
-        "term-skills": "skills/"
+        "term-skills": "skills/",
+        "wisdom-title": "短歌行",
+        "wisdom-quote": "对酒当歌，人生几何！\n譬如朝露，去日苦多。\n慨当以慷，忧思难忘。\n何以解忧？唯有杜康。\n\n青青子衿，悠悠我心。\n但为君故，沉吟至今。\n呦呦鹿鸣，食野之苹。\n我有嘉宾，鼓瑟吹笙。\n\n明明如月，何时可掇？\n忧从中来，不可断绝。\n越陌度阡，枉用相存。\n契阔谈讌，心念旧恩。\n\n月明星稀，乌鹊南飞。\n绕树三匝，何枝可依？\n山不厌高，海不厌深。\n周公吐哺，天下归心。",
+        "wisdom-author": "曹操"
     },
     cn: {
         "nav-home": "首页", "nav-about": "关于", "nav-projects": "项目", "nav-exp": "工作经历", "nav-skills": "个人技能", "nav-contact": "联系", "nav-resume": "简历", "nav-edu": "教育背景",
@@ -67,7 +70,10 @@ const translations = {
         "term-proj": "项目/",
         "term-exp": "工作经历/",
         "term-edu": "教育背景/",
-        "term-skills": "个人技能/"
+        "term-skills": "个人技能/",
+        "wisdom-title": "短歌行",
+        "wisdom-quote": "对酒当歌，人生几何！\n譬如朝露，去日苦多。\n慨当以慷，忧思难忘。\n何以解忧？唯有杜康。\n\n青青子衿，悠悠我心。\n但为君故，沉吟至今。\n呦呦鹿鸣，食野之苹。\n我有嘉宾，鼓瑟吹笙。\n\n明明如月，何时可掇？\n忧从中来，不可断绝。\n越陌度阡，枉用相存。\n契阔谈讌，心念旧恩。\n\n月明星稀，乌鹊南飞。\n绕树三匝，何枝可依？\n山不厌高，海不厌深。\n周公吐哺，天下归心。",
+        "wisdom-author": "曹操"
     }
 };
 
