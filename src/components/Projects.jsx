@@ -6,6 +6,14 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const projects = [
   {
+    id: 'xiangqi-pro',
+    title: 'Xiangqi Pro',
+    desc: 'The most authentic Chinese Chess experience online. Features a premium landing page, advanced AI matching, and real-time multiplayer.',
+    image: '/Images/xiangqi-pro.png',
+    tags: ['Flask', 'Socket.IO', 'JavaScript', 'Python'],
+    link: 'https://github.com/s655liu/Chinese-Chess'
+  },
+  {
     id: 'uw-exam',
     title: 'Waterloo Exam Generator',
     desc: 'AI-powered mock exam generator for UW CS and Math courses, featuring glassmorphism UI.',
@@ -43,7 +51,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-20 px-10 md:px-20 max-w-7xl mx-auto overflow-hidden">
-      <motion.h2 
+      <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -54,7 +62,7 @@ export default function Projects() {
 
       <div className="relative">
         <AnimatePresence mode="wait">
-          <motion.div 
+          <motion.div
             key={project.id}
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
@@ -64,13 +72,13 @@ export default function Projects() {
           >
             {/* Project Image */}
             <div className="lg:w-1/2 w-full aspect-video overflow-hidden border border-white/10">
-              <img 
-                src={`${baseUrl}${project.image.startsWith('/') ? project.image.slice(1) : project.image}`} 
+              <img
+                src={`${baseUrl}${project.image.startsWith('/') ? project.image.slice(1) : project.image}`}
                 alt={project.title}
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"
               />
             </div>
-            
+
             {/* Project Content */}
             <div className="lg:w-1/2 w-full">
               <div className="flex justify-between items-start mb-6">
@@ -86,10 +94,10 @@ export default function Projects() {
                   </button>
                 </div>
               </div>
-              
+
               <h3 className="text-3xl md:text-4xl font-mono text-white mb-6 leading-tight">{project.title}</h3>
               <p className="text-slate-400 text-lg mb-8 leading-relaxed">{project.desc}</p>
-              
+
               <div className="flex flex-wrap gap-3 mb-10">
                 {project.tags.map(tag => (
                   <span key={tag} className="px-4 py-1.5 bg-white/5 border border-white/10 text-[10px] font-mono uppercase tracking-[0.2em] text-slate-300">
@@ -97,10 +105,10 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              
-              <a 
-                href={project.link} 
-                target="_blank" 
+
+              <a
+                href={project.link}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-4 text-sm font-mono uppercase tracking-[0.3em] text-primary hover:text-white transition-all"
               >
@@ -114,7 +122,7 @@ export default function Projects() {
         {/* Progress Dots */}
         <div className="flex justify-center gap-3 mt-12">
           {projects.map((_, i) => (
-            <button 
+            <button
               key={i}
               onClick={() => setIndex(i)}
               className={`h-1 transition-all duration-300 ${i === index ? 'w-12 bg-primary' : 'w-4 bg-white/10'}`}
